@@ -7,7 +7,6 @@ data class FreshDweller(
     var id: Long?,
     val imageUrl: String?,
     val name: String?,
-    val type: String?,
     val genus: String?,
     val minTemperature: Double?,
     val maxTemperature: Double?,
@@ -18,5 +17,6 @@ data class FreshDweller(
     val maxGh: Double?,
     val minKh: Double?,
     val maxKh: Double?,
-    val description: String?
+    val description: String?,
+    val tags: List<String>?
 )
