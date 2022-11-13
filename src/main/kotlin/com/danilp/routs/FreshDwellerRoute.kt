@@ -278,6 +278,30 @@ val freshDwellerList = listOf(
             Tags.OVIPAROUS,
             Tags.SMALL,
             Tags.FISH,
+            Tags.SHOAL
+        )
+    ),
+    FreshDweller(
+        id = 11,
+        imageUrl = null,
+        name = "Green neon tetra",
+        genus = "Paracheirodon simulans",
+        minTemperature = 23.0,
+        maxTemperature = 27.0,
+        liters = 3.0,
+        minPh = 5.5,
+        maxPh = 6.0,
+        minGh = 0.0,
+        maxGh = 4.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.OVIPAROUS,
+            Tags.SMALL,
+            Tags.FISH,
             Tags.SHOAL,
             Tags.PLANT_LOVER
         )
