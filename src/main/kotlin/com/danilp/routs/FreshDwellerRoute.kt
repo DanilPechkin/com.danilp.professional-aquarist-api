@@ -10,7 +10,7 @@ import io.ktor.server.routing.*
 fun Route.freshDwellerRouting() {
     route("/fresh_dweller") {
         get {
-            call.respond(freshDwellerList.map { listOf(it.id, it.name, it.genus) })
+            call.respond(freshDwellerList)
         }
         get("{id}") {
             val id = call.parameters["id"]?.toLongOrNull()
@@ -457,5 +457,5 @@ val freshDwellerList = listOf(
             Tags.SHOAL,
             Tags.PLANT_LOVER
         )
-    ),
+    )
 )
