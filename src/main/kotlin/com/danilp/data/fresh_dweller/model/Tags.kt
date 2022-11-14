@@ -27,7 +27,7 @@ object Tags {
     const val MONOGAMOUS = "Monogamous" // моногамный (пара обязательна)
     const val POLYGAMOUS = "Polygamous" // полигамный
 
-    const val VIVIPAROUS = "Viviparous" // живородящие
+    const val LIVEBEARER = "Livebearer" // живородящие
     const val OVIPAROUS = "Oviparous" // яйцекладущие
 
     const val SHOAL = "Shoal" // стайный (стая обязательна)
@@ -42,8 +42,9 @@ object Tags {
     const val PLANT_LOVER = "Plant lover" // любит растения
     const val NEEDS_SHELTER = "Needs shelter" // нуждается в укрытии
 
-    const val BROADLEAF_PLANT = "Broadleaf plant" // широколистные растения
-    const val LONG_STEMMED_PLANT = "Long-stemmed plant" // длинностебельные растения
+    const val BROADLEAF_PLANT = "Broadleaf plant" // любит широколистные растения
+    const val LONG_STEMMED_PLANT = "Long-stemmed plant" // любит длинностебельные растения
+    const val FLOATING_PLANT = "Floating plant" // любит плавающие растения
 
     const val MOSS = "Moss" // мох
 

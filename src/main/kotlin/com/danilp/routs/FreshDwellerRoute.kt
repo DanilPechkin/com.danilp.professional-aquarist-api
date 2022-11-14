@@ -10,7 +10,7 @@ import io.ktor.server.routing.*
 fun Route.freshDwellerRouting() {
     route("/fresh_dweller") {
         get {
-            call.respond(freshDwellerList)
+            call.respond(freshDwellerList.map { listOf(it.id, it.name, it.genus) })
         }
         get("{id}") {
             val id = call.parameters["id"]?.toLongOrNull()
@@ -28,13 +28,13 @@ fun Route.freshDwellerRouting() {
     }
 }
 
-private const val BASE_URL = "http://192.168.0.106:8080"
+private const val BASE_URL = "http://192.168.3.15:8080"
 
 val freshDwellerList = listOf(
     FreshDweller(
         id = 1,
         imageUrl = "$BASE_URL/static/fresh_dweller/pterophyllum_scalare.jpg",
-        name = "Angel Fish",
+        name = "Angelfish",
         genus = "Pterophyllum scalare",
         minTemperature = 24.0,
         maxTemperature = 30.0,
@@ -301,6 +301,158 @@ val freshDwellerList = listOf(
             Tags.POLYGAMOUS,
             Tags.OVIPAROUS,
             Tags.SMALL,
+            Tags.FISH,
+            Tags.SHOAL,
+            Tags.PLANT_LOVER
+        )
+    ),
+
+    // Livebearers
+
+    FreshDweller(
+        id = 12,
+        imageUrl = null,
+        name = "Guppy",
+        genus = "Poecilia reticulata",
+        minTemperature = 24.0,
+        maxTemperature = 26.0,
+        liters = 4.0,
+        minPh = 7.0,
+        maxPh = 8.5,
+        minGh = 10.0,
+        maxGh = 25.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.LIVEBEARER,
+            Tags.SMALL,
+            Tags.FISH,
+            Tags.SHOAL,
+            Tags.PLANT_LOVER,
+            Tags.FLOATING_PLANT
+        )
+    ),
+    FreshDweller(
+        id = 13,
+        imageUrl = null,
+        name = "Endler's livebearer",
+        genus = "Poecilia wingei",
+        minTemperature = 24.0,
+        maxTemperature = 30.0,
+        liters = 4.0,
+        minPh = 7.0,
+        maxPh = 8.5,
+        minGh = 15.0,
+        maxGh = 35.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.LIVEBEARER,
+            Tags.SMALL,
+            Tags.FISH,
+            Tags.SHOAL,
+            Tags.PLANT_LOVER,
+            Tags.FLOATING_PLANT
+        )
+    ),
+    FreshDweller(
+        id = 14,
+        imageUrl = null,
+        name = "Black molly",
+        genus = "Poecilia sphenops",
+        minTemperature = 25.0,
+        maxTemperature = 28.0,
+        liters = 5.0,
+        minPh = 7.0,
+        maxPh = 8.5,
+        minGh = 15.0,
+        maxGh = 30.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.LIVEBEARER,
+            Tags.MEDIUM,
+            Tags.FISH,
+            Tags.SHOAL
+        )
+    ),
+    FreshDweller(
+        id = 15,
+        imageUrl = null,
+        name = "Sailfin molly",
+        genus = "Poecilia latipinna",
+        minTemperature = 24.0,
+        maxTemperature = 26.0,
+        liters = 5.0,
+        minPh = 7.5,
+        maxPh = 8.0,
+        minGh = 15.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.LIVEBEARER,
+            Tags.MEDIUM,
+            Tags.FISH,
+            Tags.SHOAL
+        )
+    ),
+    FreshDweller(
+        id = 16,
+        imageUrl = null,
+        name = "Giant sailfin molly",
+        genus = "Poecilia velifera",
+        minTemperature = 24.0,
+        maxTemperature = 27.0,
+        liters = 6.0,
+        minPh = 7.0,
+        maxPh = 8.5,
+        minGh = 8.0,
+        maxGh = 25.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.LIVEBEARER,
+            Tags.MEDIUM,
+            Tags.FISH,
+            Tags.SHOAL
+        )
+    ),
+    FreshDweller(
+        id = 17,
+        imageUrl = null,
+        name = "Liberty molly",
+        genus = "Poecilia salvatoris",
+        minTemperature = 22.0,
+        maxTemperature = 28.0,
+        liters = 6.0,
+        minPh = 7.0,
+        maxPh = 7.5,
+        minGh = 12.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.LIVEBEARER,
+            Tags.MEDIUM,
             Tags.FISH,
             Tags.SHOAL,
             Tags.PLANT_LOVER
