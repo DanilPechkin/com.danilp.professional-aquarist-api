@@ -666,7 +666,7 @@ val freshDwellerList = listOf(
             Tags.POLYGAMOUS,
             Tags.SNAIL,
             Tags.HERBIVOROUS,
-            Tags.SMALL,
+            Tags.MEDIUM,
             Tags.OVIPAROUS,
             Tags.CLEANER,
             Tags.PLANT_LOVER
@@ -693,7 +693,7 @@ val freshDwellerList = listOf(
             Tags.POLYGAMOUS,
             Tags.SNAIL,
             Tags.HERBIVOROUS,
-            Tags.SMALL,
+            Tags.MEDIUM,
             Tags.OVIPAROUS,
             Tags.CLEANER,
             Tags.PLANT_LOVER
@@ -720,7 +720,7 @@ val freshDwellerList = listOf(
             Tags.POLYGAMOUS,
             Tags.SNAIL,
             Tags.HERBIVOROUS,
-            Tags.SMALL,
+            Tags.MEDIUM,
             Tags.OVIPAROUS,
             Tags.CLEANER,
             Tags.PLANT_LOVER
@@ -747,6 +747,36 @@ val freshDwellerList = listOf(
             Tags.POLYGAMOUS,
             Tags.SNAIL,
             Tags.HERBIVOROUS,
+            Tags.MEDIUM,
+            Tags.OVIPAROUS,
+            Tags.CLEANER,
+            Tags.PLANT_LOVER
+        )
+    ),
+
+    FreshDweller(
+        id = 29,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/ear_pond_snail1.jpg",
+            "${BASE_URL}/static/fresh_dweller/ear_pond_snail2.jpg"
+        ),
+        name = "Ear pond snail",
+        genus = "Radix",
+        minTemperature = 22.0,
+        maxTemperature = 28.0,
+        liters = null,
+        minPh = 6.0,
+        maxPh = 8.0,
+        minGh = 8.0,
+        maxGh = 10.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SNAIL,
+            Tags.OMNIVOROUS,
             Tags.SMALL,
             Tags.OVIPAROUS,
             Tags.CLEANER,
@@ -754,4 +784,4 @@ val freshDwellerList = listOf(
         )
     )
 
-    )
+)
