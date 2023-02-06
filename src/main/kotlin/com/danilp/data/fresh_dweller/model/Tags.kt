@@ -3,13 +3,12 @@ package com.danilp.data.fresh_dweller.model
 object Tags {
 
     const val HERBIVOROUS = "Herbivorous" // травоядные
+    const val OMNIVOROUS = "Omnivorous" // всеядные
     const val CARNIVOROUS = "Carnivorous" // мясоядные
 
     const val PREDATOR = "Predator" // хищник
     const val PEACEFUL = "Peaceful" // миролюбивый
     const val TERRITORIAL = "Territorial" // территориальный
-
-    const val VEIL_TAILED = "Veil-tailed" // вуалевый
 
     const val FAST_CURRENT = "Fast current" // любит быстрое течение
     const val MEDIUM_CURRENT = "Medium current" // любит среднее течение
@@ -39,9 +38,11 @@ object Tags {
     const val CRAYFISH = "Crayfish" // рак
     const val BIVALVE = "Bivalve" // двухстворчатое
 
-    const val PLANT_LOVER = "Plant lover" // любит растения
     const val NEEDS_SHELTER = "Needs shelter" // нуждается в укрытии
+    const val NEEDS_SMOOTH_SURFACES = "Needs smooth surfaces" // нуждается в гладкой поверхности
+    const val NEEDS_DRIFTWOOD = "Needs driftwood" // нуждается в древесине
 
+    const val PLANT_LOVER = "Plant lover" // любит растения
     const val BROADLEAF_PLANT = "Broadleaf plant" // любит широколистные растения
     const val LONG_STEMMED_PLANT = "Long-stemmed plant" // любит длинностебельные растения
     const val FLOATING_PLANT = "Floating plant" // любит плавающие растения

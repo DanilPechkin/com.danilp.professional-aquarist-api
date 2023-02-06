@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class FreshDweller(
     var id: Long?,
-    val imageUrl: String?,
+    val imageUrls: List<String>?,
     val name: String?,
     val genus: String?,
     val minTemperature: Double?,
