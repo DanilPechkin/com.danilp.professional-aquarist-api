@@ -7,7 +7,11 @@ import com.danilp.routs.BASE_URL
 val freshDwellerList = listOf(
     FreshDweller(
         id = 1,
-        imageUrls = listOf("${BASE_URL}/static/fresh_dweller/pterophyllum_scalare.jpg"),
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/pterophyllum_scalare_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/pterophyllum_scalare_2.jpg",
+            "${BASE_URL}/static/fresh_dweller/pterophyllum_scalare_3.jpg",
+        ),
         name = "Angelfish",
         genus = "Pterophyllum scalare",
         minTemperature = 24.0,
@@ -757,8 +761,8 @@ val freshDwellerList = listOf(
     FreshDweller(
         id = 29,
         imageUrls = listOf(
-            "${BASE_URL}/static/fresh_dweller/ear_pond_snail1.jpg",
-            "${BASE_URL}/static/fresh_dweller/ear_pond_snail2.jpg"
+            "${BASE_URL}/static/fresh_dweller/ear_pond_snail_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/ear_pond_snail_2.jpg"
         ),
         name = "Ear pond snail",
         genus = "Radix",
@@ -782,6 +786,136 @@ val freshDwellerList = listOf(
             Tags.CLEANER,
             Tags.PLANT_LOVER
         )
-    )
+    ),
+
+    FreshDweller(
+        id = 30,
+        imageUrls = null,
+        name = "Thorn nerite snail",
+        genus = "Clithon",
+        minTemperature = 24.0,
+        maxTemperature = 26.0,
+        liters = 3.0,
+        minPh = 7.0,
+        maxPh = null,
+        minGh = 10.0,
+        maxGh = null,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SNAIL,
+            Tags.HERBIVOROUS,
+            Tags.SMALL,
+            Tags.OVIPAROUS,
+            Tags.CLEANER
+        )
+    ),
+
+    FreshDweller(
+        id = 31,
+        imageUrls = null,
+        name = "Rabbit snail",
+        genus = "Tylomelania insulaesacrae",
+        minTemperature = 27.0,
+        maxTemperature = 30.0,
+        liters = 10.0,
+        minPh = 7.5,
+        maxPh = 8.5,
+        minGh = 5.0,
+        maxGh = 7.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.POLYGAMOUS,
+            Tags.SNAIL,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.OVIPAROUS,
+            Tags.CLEANER,
+            Tags.PLANT_EATER,
+            Tags.LOW_LIGHT
+        )
+    ),
+
+    FreshDweller(
+        id = 32,
+        imageUrls = null,
+        name = "Assasin snail",
+        genus = "Anentome helena",
+        minTemperature = 23.0,
+        maxTemperature = 27.0,
+        liters = 3.0,
+        minPh = 7.0,
+        maxPh = 8.0,
+        minGh = 8.0,
+        maxGh = 15.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PREDATOR,
+            Tags.MONOGAMOUS,
+            Tags.SNAIL,
+            Tags.CARNIVOROUS,
+            Tags.SMALL,
+            Tags.OVIPAROUS
+        )
+    ),
+
+    FreshDweller(
+        id = 33,
+        imageUrls = null,
+        name = "Black devil spike snail",
+        genus = "Faunus ater",
+        minTemperature = 25.0,
+        maxTemperature = 28.0,
+        liters = 10.0,
+        minPh = 7.0,
+        maxPh = 8.0,
+        minGh = 5.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SNAIL,
+            Tags.HERBIVOROUS,
+            Tags.MEDIUM,
+            Tags.OVIPAROUS,
+            Tags.CLEANER
+        )
+    ),
+
+    FreshDweller(
+        id = 34,
+        imageUrls = null,
+        name = "Freshwater clam",
+        genus = "Corbicula Javanicus",
+        minTemperature = 22.0,
+        maxTemperature = 27.0,
+        liters = 20.0,
+        minPh = 6.4,
+        maxPh = 8.5,
+        minGh = 10.0,
+        maxGh = 24.0,
+        minKh = null,
+        maxKh = null,
+        description = null,
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.BIVALVE,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.OVIPAROUS,
+            Tags.CLEANER
+        )
+    ),
 
 )
