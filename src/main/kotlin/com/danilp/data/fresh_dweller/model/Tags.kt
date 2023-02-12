@@ -47,7 +47,7 @@ object Tags {
     const val LONG_STEMMED_PLANT = "Long-stemmed plant" // любит длинностебельные растения
     const val FLOATING_PLANT = "Floating plant" // любит плавающие растения
 
-    const val MOSS = "Moss" // мох
+    const val NEEDS_MOSS = "Moss" // мох
 
     const val CLEANER = "Cleaner" // чистильщик
 

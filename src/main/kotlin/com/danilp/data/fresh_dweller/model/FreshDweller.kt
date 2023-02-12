@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class FreshDweller(
-    var id: Long?,
+    val id: Long?,
     val imageUrls: List<String>?,
     val name: String?,
     val genus: String?,
@@ -19,4 +19,11 @@ data class FreshDweller(
     val maxKh: Double?,
     val description: String?,
     val tags: List<String>?
+)
+
+fun FreshDweller.toShort() = FreshDwellerShort(
+    id = id,
+    imageUrl = imageUrls?.randomOrNull(),
+    name = name,
+    genus = genus
 )
