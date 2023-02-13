@@ -21,6 +21,14 @@ data class FreshDweller(
     val tags: List<String>?
 )
 
+@Serializable
+data class FreshDwellerShort(
+    var id: Long?,
+    val imageUrl: String?,
+    val name: String?,
+    val genus: String?
+)
+
 fun FreshDweller.toShort() = FreshDwellerShort(
     id = id,
     imageUrl = imageUrls?.randomOrNull(),

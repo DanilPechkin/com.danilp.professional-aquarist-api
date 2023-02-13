@@ -4,7 +4,7 @@ import com.danilp.data.fresh_dweller.model.FreshDweller
 import com.danilp.data.fresh_dweller.model.Tags
 import com.danilp.routs.BASE_URL
 
-// 38
+// 50
 
 val freshDwellerListEn = listOf(
     FreshDweller(
@@ -874,8 +874,11 @@ val freshDwellerListEn = listOf(
 
     FreshDweller(
         id = 32,
-        imageUrls = null,
-        name = "Assasin snail",
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/assassin_snail_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/assassin_snail_2.jpg"
+        ),
+        name = "Assassin snail",
         genus = "Anentome helena",
         minTemperature = 23.0,
         maxTemperature = 27.0,
@@ -945,9 +948,35 @@ val freshDwellerListEn = listOf(
             Tags.BIVALVE,
             Tags.OMNIVOROUS,
             Tags.SMALL,
-            Tags.OVIPAROUS,
             Tags.CLEANER,
             Tags.LIVEBEARER
+        )
+    ),
+
+    FreshDweller(
+        id = 39,
+        imageUrls = null,
+        name = "Physa",
+        genus = "Physa",
+        minTemperature = 20.0,
+        maxTemperature = 28.0,
+        liters = 1.0,
+        minPh = 6.5,
+        maxPh = 8.0,
+        minGh = 5.0,
+        maxGh = 15.0,
+        minKh = null,
+        maxKh = null,
+        description = "These snails can only breathe atmospheric air, so they sometimes rise to the surface. These snails are detritivores, they clean the aquarium from organic debris.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SNAIL,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.OVIPAROUS,
+            Tags.CLEANER,
+            Tags.PLANT_EATER
         )
     ),
 
@@ -967,18 +996,19 @@ val freshDwellerListEn = listOf(
         maxGh = 8.0,
         minKh = null,
         maxKh = null,
-        description = null,
+        description = "These shrimp feed in an unusual way - they catch food floating in the water. For feeding them, flakes for aquarium fish are suitable, which must be immersed in water to be sprayed by the current. In an aquarium with these shrimps, it is better not to use sand, as it is difficult for them to move on it. After birth, the larvae of these shrimp should be immersed in an aquarium with sea water and phytoplankton.",
         tags = listOf(
             Tags.PEACEFUL,
             Tags.POLYGAMOUS,
             Tags.SHRIMP,
             Tags.OMNIVOROUS,
-            Tags.MEDIUM,
+            Tags.BIG,
             Tags.LIVEBEARER,
             Tags.CLEANER,
             Tags.NEEDS_SHELTER,
             Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER
+            Tags.PLANT_LOVER,
+            Tags.FAST_CURRENT
         )
     ),
 
@@ -996,7 +1026,7 @@ val freshDwellerListEn = listOf(
         maxGh = 15.0,
         minKh = null,
         maxKh = null,
-        description = null,
+        description = "These shrimp are very fast, they can jump out of the water. They eat algae and organic debris well. Pregnant females need to be moved to an aquarium with seawater and phytoplankton for successful larval development. After giving birth, the female must be returned to the main aquarium.",
         tags = listOf(
             Tags.PEACEFUL,
             Tags.POLYGAMOUS,
@@ -1013,7 +1043,7 @@ val freshDwellerListEn = listOf(
 
     FreshDweller(
         id = 37,
-        imageUrls = null,
+        imageUrls = listOf("${BASE_URL}/static/fresh_dweller/giant_freshwater_prawn.jpg"),
         name = "Giant freshwater prawn",
         genus = "Macrobrachium rosenbergii",
         minTemperature = 26.0,
@@ -1025,7 +1055,296 @@ val freshDwellerListEn = listOf(
         maxGh = null,
         minKh = null,
         maxKh = null,
-        description = null,
+        description = "Dominant males are blue. If there are several males, they will conflict. After birth, the larvae must be transferred to a saltwater aquarium.",
+        tags = listOf(
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.PREDATOR,
+            Tags.OMNIVOROUS,
+            Tags.LARGE,
+            Tags.LIVEBEARER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.TERRITORIAL
+        )
+    ),
+
+    FreshDweller(
+        id = 40,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/red_cherry_shrimp_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/red_cherry_shrimp_2.jpg",
+            "${BASE_URL}/static/fresh_dweller/red_cherry_shrimp_3.jpg",
+            "${BASE_URL}/static/fresh_dweller/red_cherry_shrimp_4.jpg"
+        ),
+        name = "Red Cherry Shrimp",
+        genus = "Neocaridina davidi",
+        minTemperature = 22.0,
+        maxTemperature = 25.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 8.0,
+        minGh = null,
+        maxGh = null,
+        minKh = 6.0,
+        maxKh = 20.0,
+        description = "These shrimp temporarily lose color when stressed. To preserve the bright colors of future generations, it is necessary to periodically add new bright individuals to the aquarium. They eat algae and organic debris well. The females of these shrimp are larger, brighter and slower than the males. They reproduce fairly quickly.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 41,
+        imageUrls = null,
+        name = "Yellow Shrimp",
+        genus = "Neocaridina davidi",
+        minTemperature = 22.0,
+        maxTemperature = 25.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 8.0,
+        minGh = null,
+        maxGh = null,
+        minKh = 6.0,
+        maxKh = 20.0,
+        description = "These shrimp temporarily lose color when stressed. To preserve the bright colors of future generations, it is necessary to periodically add new bright individuals to the aquarium. They eat algae and organic debris well. The females of these shrimp are larger, brighter and slower than the males. They reproduce fairly quickly.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 42,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/blue_dream_shrimp_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/blue_dream_shrimp_2.jpg"
+        ),
+        name = "Blue Dream Shrimp",
+        genus = "Neocaridina davidi",
+        minTemperature = 22.0,
+        maxTemperature = 25.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 8.0,
+        minGh = null,
+        maxGh = null,
+        minKh = 6.0,
+        maxKh = 20.0,
+        description = "These shrimp temporarily lose color when stressed. To preserve the bright colors of future generations, it is necessary to periodically add new bright individuals to the aquarium. They eat algae and organic debris well. The females of these shrimp are larger, brighter and slower than the males. They reproduce fairly quickly.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 43,
+        imageUrls = null,
+        name = "Rili Shrimp",
+        genus = "Neocaridina davidi var. Rili",
+        minTemperature = 20.0,
+        maxTemperature = 26.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 7.5,
+        minGh = 4.0,
+        maxGh = 14.0,
+        minKh = null,
+        maxKh = null,
+        description = "These shrimp temporarily lose color when stressed. To preserve the bright colors of future generations, it is necessary to periodically add new bright individuals to the aquarium. They eat algae and organic debris well. The females of these shrimp are larger, brighter and slower than the males. They reproduce fairly quickly.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 44,
+        imageUrls = null,
+        name = "Bamboo Shrimp",
+        genus = "Atyopsis moluccensis",
+        minTemperature = 22.0,
+        maxTemperature = 28.0,
+        liters = 15.0,
+        minPh = 6.0,
+        maxPh = 7.5,
+        minGh = 4.0,
+        maxGh = 8.0,
+        minKh = null,
+        maxKh = null,
+        description = "These shrimp feed in an unusual way - they catch food floating in the water. For feeding them, flakes for aquarium fish are suitable, which must be immersed in water to be sprayed by the current. After birth, the larvae of these shrimp should be immersed in an aquarium with sea water and phytoplankton.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.FAST_CURRENT,
+            Tags.BROADLEAF_PLANT
+        )
+    ),
+
+    FreshDweller(
+        id = 45,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/amano_shrimp_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/amano_shrimp_2.jpg"
+        ),
+        name = "Amano Shrimp",
+        genus = "Caridina multidentata",
+        minTemperature = 23.0,
+        maxTemperature = 27.0,
+        liters = 5.0,
+        minPh = 7.0,
+        maxPh = 7.5,
+        minGh = 2.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = "These shrimp are very good at cleaning the aquarium from algae. It can get out of the aquarium through a hose or wire, so it is better to cover the aquarium with a lid. They do not eat the eggs of other inhabitants of the aquarium. Males have a body covered with dots, while females have a body covered with lines. After birth, the larvae of these shrimp should be moved to a saltwater aquarium.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS,
+            Tags.MEDIUM_CURRENT
+        )
+    ),
+
+    FreshDweller(
+        id = 46,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/crystal_red_shrimp_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/crystal_red_shrimp_2.jpg",
+            "${BASE_URL}/static/fresh_dweller/crystal_red_shrimp_3.jpg"
+        ),
+        name = "Crystal Red Shrimp",
+        genus = "Caridina cantonensis",
+        minTemperature = 21.0,
+        maxTemperature = 26.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 7.5,
+        minGh = 4.0,
+        maxGh = 6.0,
+        minKh = null,
+        maxKh = null,
+        description = "These shrimps do not tolerate changes in water parameters and water pollution very well. Poor nutrition of these shrimp leads to loss of color. If you want to cut a large plant in an aquarium with these shrimp, it is best to remove it from the aquarium before cutting it. Females are larger than males and have a more intense color. The stimulus for reproduction is a decrease in water temperature by several degrees below comfortable.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.HERBIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS,
+            Tags.SLOW_CURRENT
+        )
+    ),
+
+    FreshDweller(
+        id = 47,
+        imageUrls = null,
+        name = "Crystal Black Shrimp",
+        genus = "Caridina cantonensis",
+        minTemperature = 21.0,
+        maxTemperature = 26.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 7.5,
+        minGh = 4.0,
+        maxGh = 6.0,
+        minKh = null,
+        maxKh = null,
+        description = "These shrimps do not tolerate changes in water parameters and water pollution very well. Poor nutrition of these shrimp leads to loss of color. If you want to cut a large plant in an aquarium with these shrimp, it is best to remove it from the aquarium before cutting it. Females are larger than males and have a more intense color. The stimulus for reproduction is a decrease in water temperature by several degrees below comfortable.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.HERBIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS,
+            Tags.SLOW_CURRENT
+        )
+    ),
+
+    FreshDweller(
+        id = 48,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/freshwater_prawn_1.jpg"
+        ),
+        name = "Freshwater Prawn",
+        genus = "Macrobrachium",
+        minTemperature = 23.0,
+        maxTemperature = 27.0,
+        liters = 20.0,
+        minPh = 7.0,
+        maxPh = 8.0,
+        minGh = 6.0,
+        maxGh = 15.0,
+        minKh = null,
+        maxKh = null,
+        description = "If there are several males, they will conflict.",
         tags = listOf(
             Tags.POLYGAMOUS,
             Tags.SHRIMP,
@@ -1034,9 +1353,71 @@ val freshDwellerListEn = listOf(
             Tags.BIG,
             Tags.LIVEBEARER,
             Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.TERRITORIAL,
+            Tags.LOW_LIGHT,
+            Tags.CLEANER
+        )
+    ),
+
+    FreshDweller(
+        id = 49,
+        imageUrls = null,
+        name = "Babaulti Shrimp",
+        genus = "Caridina cf. babaulti",
+        minTemperature = 23.0,
+        maxTemperature = 25.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 7.5,
+        minGh = 8.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = "These shrimp can change color for camouflage purposes. Their color depends on the keeping conditions, feeding and mood. Females are larger than males.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 50,
+        imageUrls = null,
+        name = "Cardinal Sulawesi Shrimp",
+        genus = "Caridina dennerli",
+        minTemperature = 26.0,
+        maxTemperature = 29.0,
+        liters = null,
+        minPh = 7.8,
+        maxPh = 8.2,
+        minGh = 6.0,
+        maxGh = 8.0,
+        minKh = null,
+        maxKh = null,
+        description = "These shrimp do not do well in ordinary water, for their keeping it is better to use osmotic water with the addition of a complex of special salts designed for them.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
             Tags.NEEDS_DRIFTWOOD
         )
     ),
+
 )
 
 val freshDwellerListRu = listOf(
@@ -1907,7 +2288,10 @@ val freshDwellerListRu = listOf(
 
     FreshDweller(
         id = 32,
-        imageUrls = null,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/assassin_snail_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/assassin_snail_2.jpg"
+        ),
         name = "Улитка хелена",
         genus = "Anentome helena",
         minTemperature = 23.0,
@@ -1978,9 +2362,35 @@ val freshDwellerListRu = listOf(
             Tags.BIVALVE,
             Tags.OMNIVOROUS,
             Tags.SMALL,
-            Tags.OVIPAROUS,
             Tags.CLEANER,
             Tags.LIVEBEARER
+        )
+    ),
+
+    FreshDweller(
+        id = 39,
+        imageUrls = null,
+        name = "Физа",
+        genus = "Physa",
+        minTemperature = 20.0,
+        maxTemperature = 28.0,
+        liters = 1.0,
+        minPh = 6.5,
+        maxPh = 8.0,
+        minGh = 5.0,
+        maxGh = 15.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти улитки способны дышать только атмосферным воздухом, для чего иногда поднимаются к поверхности. Эти улитки - детритофаги, они чистят аквариум от органического мусора.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SNAIL,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.OVIPAROUS,
+            Tags.CLEANER,
+            Tags.PLANT_EATER
         )
     ),
 
@@ -2000,18 +2410,19 @@ val freshDwellerListRu = listOf(
         maxGh = 8.0,
         minKh = null,
         maxKh = null,
-        description = null,
+        description = "Эти креветки питаются необычным способом - они ловят пищу, плавающую в воде. Для их кормления подойдут хлопья для аквариумных рыбок, которые необходимо погрузить в воду, чтобы их распылило течением. В аквариуме с этими креветками лучше не использовать песок, поскольку им тяжело по нему передвигаться. После рождения личинки этих креветок должны быть погружены в аквариум с морской водой и фитопланктоном.",
         tags = listOf(
             Tags.PEACEFUL,
             Tags.POLYGAMOUS,
             Tags.SHRIMP,
             Tags.OMNIVOROUS,
-            Tags.MEDIUM,
+            Tags.BIG,
             Tags.LIVEBEARER,
             Tags.CLEANER,
             Tags.NEEDS_SHELTER,
             Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER
+            Tags.PLANT_LOVER,
+            Tags.FAST_CURRENT
         )
     ),
 
@@ -2029,7 +2440,7 @@ val freshDwellerListRu = listOf(
         maxGh = 15.0,
         minKh = null,
         maxKh = null,
-        description = null,
+        description = "Эти креветки очень быстрые, они умеют выпрыгивать из воды. Они хорошо поедают водоросли и органические остатки. Беременных самок необходимо перемещать в аквариум с морской водой и фитопланктоном для успешного развития личинок. После родов самку необходимо вернуть в основной аквариум.",
         tags = listOf(
             Tags.PEACEFUL,
             Tags.POLYGAMOUS,
@@ -2046,7 +2457,7 @@ val freshDwellerListRu = listOf(
 
     FreshDweller(
         id = 37,
-        imageUrls = null,
+        imageUrls = listOf("${BASE_URL}/static/fresh_dweller/giant_freshwater_prawn.jpg"),
         name = "Креветка макробрахиум розенберга",
         genus = "Macrobrachium rosenbergii",
         minTemperature = 26.0,
@@ -2058,7 +2469,296 @@ val freshDwellerListRu = listOf(
         maxGh = null,
         minKh = null,
         maxKh = null,
-        description = null,
+        description = "Доминантные самцы имеют синюю окраску. Если самцов будет несколько, то они будут конфликтовать. После рождения личинок необходимо перенести в аквариум с морской водой.",
+        tags = listOf(
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.PREDATOR,
+            Tags.OMNIVOROUS,
+            Tags.LARGE,
+            Tags.LIVEBEARER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.TERRITORIAL
+        )
+    ),
+
+    FreshDweller(
+        id = 40,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/red_cherry_shrimp_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/red_cherry_shrimp_2.jpg",
+            "${BASE_URL}/static/fresh_dweller/red_cherry_shrimp_3.jpg",
+            "${BASE_URL}/static/fresh_dweller/red_cherry_shrimp_4.jpg"
+        ),
+        name = "Креветка вишня",
+        genus = "Neocaridina davidi",
+        minTemperature = 22.0,
+        maxTemperature = 25.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 8.0,
+        minGh = null,
+        maxGh = null,
+        minKh = 6.0,
+        maxKh = 20.0,
+        description = "Эти креветки временно теряют окраску во время стресса. Для поддержания яркой окраски будущих поколений необходимо периодически добавлять в аквариум новых ярких особей. Они хорошо поедают водоросли и органические остатки. Самки этих креветок больше, ярче и медленнее самцов. Размножаются они достаточно быстро.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 41,
+        imageUrls = null,
+        name = "Креветка жёлтая",
+        genus = "Neocaridina davidi",
+        minTemperature = 22.0,
+        maxTemperature = 25.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 8.0,
+        minGh = null,
+        maxGh = null,
+        minKh = 6.0,
+        maxKh = 20.0,
+        description = "Эти креветки временно теряют окраску во время стресса. Для поддержания яркой окраски будущих поколений необходимо периодически добавлять в аквариум новых ярких особей. Они хорошо поедают водоросли и органические остатки. Самки этих креветок больше, ярче и медленнее самцов. Размножаются они достаточно быстро.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 42,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/blue_dream_shrimp_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/blue_dream_shrimp_2.jpg",
+        ),
+        name = "Креветка голубая мечта",
+        genus = "Neocaridina davidi",
+        minTemperature = 22.0,
+        maxTemperature = 25.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 8.0,
+        minGh = null,
+        maxGh = null,
+        minKh = 6.0,
+        maxKh = 20.0,
+        description = "Эти креветки временно теряют окраску во время стресса. Для поддержания яркой окраски будущих поколений необходимо периодически добавлять в аквариум новых ярких особей. Они хорошо поедают водоросли и органические остатки. Самки этих креветок больше, ярче и медленнее самцов. Размножаются они достаточно быстро.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 43,
+        imageUrls = null,
+        name = "Креветка Рили",
+        genus = "Neocaridina davidi var. Rili",
+        minTemperature = 20.0,
+        maxTemperature = 26.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 7.5,
+        minGh = 4.0,
+        maxGh = 14.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти креветки временно теряют окраску во время стресса. Для поддержания яркой окраски будущих поколений необходимо периодически добавлять в аквариум новых ярких особей. Они хорошо поедают водоросли и органические остатки. Самки этих креветок больше, ярче и медленнее самцов. Размножаются они достаточно быстро.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 44,
+        imageUrls = null,
+        name = "Креветка фильтратор",
+        genus = "Atyopsis moluccensis",
+        minTemperature = 22.0,
+        maxTemperature = 28.0,
+        liters = 15.0,
+        minPh = 6.0,
+        maxPh = 7.5,
+        minGh = 4.0,
+        maxGh = 8.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти креветки питаются необычным способом - они ловят пищу, плавающую в воде. Для их кормления подойдут хлопья для аквариумных рыбок, которые необходимо погрузить в воду, чтобы их распылило течением. После рождения личинки этих креветок должны быть перемещены в аквариум с морской водой и фитопланктоном.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.FAST_CURRENT,
+            Tags.BROADLEAF_PLANT
+        )
+    ),
+
+    FreshDweller(
+        id = 45,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/amano_shrimp_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/amano_shrimp_2.jpg"
+        ),
+        name = "Креветка Амано",
+        genus = "Caridina multidentata",
+        minTemperature = 23.0,
+        maxTemperature = 27.0,
+        liters = 5.0,
+        minPh = 7.0,
+        maxPh = 7.5,
+        minGh = 2.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти креветки очень хорошо очищают аквариум от водорослей. Может вылезти из аквариума по шлангу или проводу, поэтому аквариум лучше накрыть крышкой. Не поедают икру других обитателей аквариума. У самцов тело покрыто точками, а у самок линиями. После рождения личинки этих креветок должны быть перемещены в аквариум с морской водой.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS,
+            Tags.MEDIUM_CURRENT
+        )
+    ),
+
+    FreshDweller(
+        id = 46,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/crystal_red_shrimp_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/crystal_red_shrimp_2.jpg",
+            "${BASE_URL}/static/fresh_dweller/crystal_red_shrimp_3.jpg"
+        ),
+        name = "Креветка красный кристалл",
+        genus = "Caridina cantonensis",
+        minTemperature = 21.0,
+        maxTemperature = 26.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 7.5,
+        minGh = 4.0,
+        maxGh = 6.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти креветки очень плохо переносят изменения параметров воды и загрязнение воды. Плохое питание этих креветок приводит к потере окраса. Если вы хотите подстричь большое растение в аквариуме с этими креветками, то перед стрижкой лучше достать его из аквариума. Самки больше и ярче самцов. Стимулом к размножению служит понижение температуры воды на несколько градусов ниже комфортной.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.HERBIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS,
+            Tags.SLOW_CURRENT
+        )
+    ),
+
+    FreshDweller(
+        id = 47,
+        imageUrls = null,
+        name = "Креветка чёрный кристалл",
+        genus = "Caridina cantonensis",
+        minTemperature = 21.0,
+        maxTemperature = 26.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 7.5,
+        minGh = 4.0,
+        maxGh = 6.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти креветки очень плохо переносят изменения параметров воды и загрязнение воды. Плохое питание этих креветок приводит к потере окраса. Если вы хотите подстричь большое растение в аквариуме с этими креветками, то перед стрижкой лучше достать его из аквариума. Самки больше и ярче самцов. Стимулом к размножению служит понижение температуры воды на несколько градусов ниже комфортной.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.HERBIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS,
+            Tags.SLOW_CURRENT
+        )
+    ),
+
+    FreshDweller(
+        id = 48,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/freshwater_prawn_1.jpg"
+        ),
+        name = "Креветка макробрахиум",
+        genus = "Macrobrachium",
+        minTemperature = 23.0,
+        maxTemperature = 27.0,
+        liters = 20.0,
+        minPh = 7.0,
+        maxPh = 8.0,
+        minGh = 6.0,
+        maxGh = 15.0,
+        minKh = null,
+        maxKh = null,
+        description = "Если самцов будет несколько, то они будут конфликтовать.",
         tags = listOf(
             Tags.POLYGAMOUS,
             Tags.SHRIMP,
@@ -2066,6 +2766,97 @@ val freshDwellerListRu = listOf(
             Tags.OMNIVOROUS,
             Tags.BIG,
             Tags.LIVEBEARER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.TERRITORIAL,
+            Tags.LOW_LIGHT,
+            Tags.CLEANER
+        )
+    ),
+
+    FreshDweller(
+        id = 49,
+        imageUrls = null,
+        name = "Креветка бабаулти",
+        genus = "Caridina cf. babaulti",
+        minTemperature = 23.0,
+        maxTemperature = 25.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 7.5,
+        minGh = 8.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти креветки умеют менять окраску в целях маскировки. Их окраска зависит от условий содержания, кормления и настроения. Самки крупнее самцов.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 49,
+        imageUrls = null,
+        name = "Креветка бабаулти",
+        genus = "Caridina cf. babaulti",
+        minTemperature = 23.0,
+        maxTemperature = 25.0,
+        liters = null,
+        minPh = 6.5,
+        maxPh = 7.5,
+        minGh = 8.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти креветки умеют менять окраску в целях маскировки. Их окраска зависит от условий содержания, кормления и настроения. Самки крупнее самцов.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
+            Tags.NEEDS_SHELTER,
+            Tags.NEEDS_DRIFTWOOD,
+            Tags.PLANT_LOVER,
+            Tags.NEEDS_MOSS
+        )
+    ),
+
+    FreshDweller(
+        id = 50,
+        imageUrls = null,
+        name = "Креветка кардинал",
+        genus = "Caridina dennerli",
+        minTemperature = 26.0,
+        maxTemperature = 29.0,
+        liters = null,
+        minPh = 7.8,
+        maxPh = 8.2,
+        minGh = 6.0,
+        maxGh = 8.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти креветки чувствуют себя плохо в обычной воде, для их содержания лучше использовать осмотическую воду с добавлением комплекса специальных солей, разработанного для них.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.POLYGAMOUS,
+            Tags.SHRIMP,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.LIVEBEARER,
+            Tags.CLEANER,
             Tags.NEEDS_SHELTER,
             Tags.NEEDS_DRIFTWOOD
         )
