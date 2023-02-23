@@ -1418,9 +1418,216 @@ val freshDwellerListEn = listOf(
         )
     ),
 
+    // Crayfish
+
+    FreshDweller(
+        id = 51,
+        imageUrls = null,
+        name = "Common yabby",
+        genus = "Cherax destructor",
+        minTemperature = 16.0,
+        maxTemperature = 23.0,
+        liters = 50.0,
+        minPh = 7.0,
+        maxPh = 7.5,
+        minGh = 10.0,
+        maxGh = null,
+        minKh = null,
+        maxKh = null,
+        description = "It's a very intelligent crayfish. It moves the decorations of the aquarium and excavates the ground to create its own aquarium design. The design created by this crayfish should not be changed, otherwise, it will be dissatisfied. If you keep this crayfish in uncomfortable conditions, it will try to escape from the tank. Males have more powerful claws, and females have wider abdomens. To distinguish the male from the female, you need to turn the crayfish on the back and look at the base of the last pair of walking legs, the males have there growths similar to thorns. Adults do not attack the young, but the young can fight each other.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.BIG,
+            Tags.NEEDS_SHELTER,
+            Tags.SLOW_CURRENT,
+            Tags.PLANT_EATER,
+            Tags.LIVEBEARER
+        )
+    ),
+
+    FreshDweller(
+        id = 52,
+        imageUrls = null,
+        name = "Red claw crayfish",
+        genus = "Сherax quadricarinatus",
+        minTemperature = 20.0,
+        maxTemperature = 26.0,
+        liters = 65.0,
+        minPh = 6.5,
+        maxPh = 8.5,
+        minGh = 5.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = "It's a very intelligent crayfish. It moves the decorations of the aquarium to create its own aquarium design. The design created by this crayfish should not be changed, otherwise, it will be dissatisfied. If you keep this crayfish in uncomfortable conditions, it will try to escape from the tank. The males have red growth on the claws. To stimulate reproduction, males and females can be separated for a week, after which their sexual activity will increase. The hatchlings of these crayfish must be separated, otherwise they will fight each other.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.BIG,
+            Tags.NEEDS_SHELTER,
+            Tags.SLOW_CURRENT,
+            Tags.PLANT_EATER,
+            Tags.LIVEBEARER
+        )
+    ),
+
+    FreshDweller(
+        id = 53,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/cuban_crayfish_1.jpg"
+        ),
+        name = "Cuban crayfish",
+        genus = "Procambarus cubensis",
+        minTemperature = 24.0,
+        maxTemperature = 26.0,
+        liters = 25.0,
+        minPh = 7.0,
+        maxPh = 7.6,
+        minGh = 8.0,
+        maxGh = 12.0,
+        minKh = null,
+        maxKh = null,
+        description = "These crayfish sometimes come out of the water, so in an aquarium with them you can install branches sticking out of the water. The males have the first set of abdominal legs turned into a special organ and leaning along the body. The young must be separated from the adults, otherwise they will be eaten.",
+        tags = listOf(
+            Tags.PREDATOR,
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.NEEDS_SHELTER,
+            Tags.LIVEBEARER,
+            Tags.NEEDS_DRIFTWOOD
+        )
+    ),
+
+    FreshDweller(
+        id = 54,
+        imageUrls = null,
+        name = "Blue crayfish",
+        genus = "Procambarus alleni",
+        minTemperature = 20.0,
+        maxTemperature = 25.0,
+        liters = 50.0,
+        minPh = 6.5,
+        maxPh = 8.0,
+        minGh = 10.0,
+        maxGh = 25.0,
+        minKh = null,
+        maxKh = null,
+        description = "These crayfish have high intraspecific aggression, the males often fight. Males have an organ of reproduction on the abdomen. The young must be separated from the adults, otherwise, they will be eaten.",
+        tags = listOf(
+            Tags.PREDATOR,
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.NEEDS_SHELTER,
+            Tags.LIVEBEARER,
+            Tags.SLOW_CURRENT,
+            Tags.PLANT_EATER
+        )
+    ),
+
+    FreshDweller(
+        id = 55,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/red_swamp_crayfish_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/red_swamp_crayfish_2.jpg"
+        ),
+        name = "Red swamp crayfish",
+        genus = "Procambarus clarkii",
+        minTemperature = 23.0,
+        maxTemperature = 27.0,
+        liters = 70.0,
+        minPh = 7.0,
+        maxPh = 7.5,
+        minGh = 12.0,
+        maxGh = null,
+        minKh = null,
+        maxKh = null,
+        description = "The colour of these crayfish is very dependent on feeding: it varies from blue to brown. Carotenoids must be present in the crayfish diet to get a red colour. These crayfish sometimes come out of the water, so in an aquarium with them you can install branches sticking out of the water. These crayfish like to dig in the soil. The males have the first set of abdominal legs turned into a special organ and leaning along the body. The young must be separated from the adults, otherwise they will be eaten.",
+        tags = listOf(
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.NEEDS_SHELTER,
+            Tags.LIVEBEARER,
+            Tags.SLOW_CURRENT,
+            Tags.PLANT_EATER,
+            Tags.NEEDS_DRIFTWOOD
+        )
+    ),
+
+    FreshDweller(
+        id = 56,
+        imageUrls = null,
+        name = "Marbled crayfish",
+        genus = "Procambarus virginalis",
+        minTemperature = 18.0,
+        maxTemperature = 28.0,
+        liters = 40.0,
+        minPh = 6.5,
+        maxPh = 7.8,
+        minGh = 8.0,
+        maxGh = 12.0,
+        minKh = null,
+        maxKh = null,
+        description = "These crayfish can crawl out of an aquarium through filter hoses. All individuals of these crayfish are females that can reproduce without fertilization (this process is called parthenogenesis). The young must be separated from the adults, otherwise, they will be eaten.",
+        tags = listOf(
+            Tags.PREDATOR,
+            Tags.TERRITORIAL,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.NEEDS_SHELTER,
+            Tags.LIVEBEARER,
+            Tags.PLANT_EATER
+        )
+    ),
+
+    FreshDweller(
+        id = 57,
+        imageUrls = null,
+        name = "Dwarf orange crayfish",
+        genus = "Cambarellus patzcuarensis var. Orange",
+        minTemperature = 18.0,
+        maxTemperature = 25.0,
+        liters = 25.0,
+        minPh = 7.0,
+        maxPh = 8.5,
+        minGh = 10.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = "These crayfish have very interesting behaviour. They have a noontime lifestyle. These crayfish love to build their home and dig the soil. When crayfish is hungry, it lifts its claws and runs along the wall of the aquarium. These pets like to hang upside down, caught on the stems of plants. They can crawl out of the aquarium through the hoses of the filter. The males have the first set of abdominal legs turned into a special organ and leaning along the body. Adults can attack young.",
+        tags = listOf(
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.NEEDS_SHELTER,
+            Tags.LIVEBEARER,
+            Tags.SLOW_CURRENT,
+            Tags.PLANT_LOVER,
+            Tags.LOW_LIGHT
+        )
+    ),
+
 )
 
-val freshDwellerListRu = listOf(
+val freshDwellerListRu = listOf (
     FreshDweller(
         id = 1,
         imageUrls = listOf(
@@ -2859,6 +3066,213 @@ val freshDwellerListRu = listOf(
             Tags.CLEANER,
             Tags.NEEDS_SHELTER,
             Tags.NEEDS_DRIFTWOOD
+        )
+    ),
+
+    // Crayfish
+
+    FreshDweller(
+        id = 51,
+        imageUrls = null,
+        name = "Австралийский рак Ябби",
+        genus = "Cherax destructor",
+        minTemperature = 16.0,
+        maxTemperature = 23.0,
+        liters = 50.0,
+        minPh = 7.0,
+        maxPh = 7.5,
+        minGh = 10.0,
+        maxGh = null,
+        minKh = null,
+        maxKh = null,
+        description = "Этот рак очень умён. Он двигает аквариумные декорации и роет грунт для того чтобы создать собственный дизайн своего аквариума. Созданный этим раком дизайн не стоит изменять, иначе он будет недоволен. Если содержать этого рака в некомфортных условиях, то он попытается сбежать из аквариума. У самцов более мощные клешни, а у самки более широкое брюшко. Чтобы отличить самца от самки, нужно перевернуть рака на спину и посмотреть на основание последней пары ходильных ног, у самцов там распологаются наросты, похожие на шипы. Взрослые особи не нападают на молодых, но молодые могут драться друг с другом.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.BIG,
+            Tags.NEEDS_SHELTER,
+            Tags.SLOW_CURRENT,
+            Tags.PLANT_EATER,
+            Tags.LIVEBEARER
+        )
+    ),
+
+    FreshDweller(
+        id = 52,
+        imageUrls = null,
+        name = "Австралийский красноклешневый рак",
+        genus = "Сherax quadricarinatus",
+        minTemperature = 20.0,
+        maxTemperature = 26.0,
+        liters = 65.0,
+        minPh = 6.5,
+        maxPh = 8.5,
+        minGh = 5.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = "Этот рак очень умён. Он двигает аквариумные декорации для того чтобы создать собственный дизайн своего аквариума. Созданный этим раком дизайн не стоит изменять, иначе он будет недоволен. Если содержать этого рака в некомфортных условиях, то он попытается сбежать из аквариума. Самцы имеют красные выросты на клешнях. Для стимуляции размножения можно разделить самцов и самок на неделю, после этого их половая активность возрастёт. Мальков этих раков необходимо рассаживать, иначе они будут драться друг с другом.",
+        tags = listOf(
+            Tags.PEACEFUL,
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.BIG,
+            Tags.NEEDS_SHELTER,
+            Tags.SLOW_CURRENT,
+            Tags.PLANT_EATER,
+            Tags.LIVEBEARER
+        )
+    ),
+
+    FreshDweller(
+        id = 53,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/cuban_crayfish_1.jpg"
+        ),
+        name = "Голубой кубинский рак",
+        genus = "Procambarus cubensis",
+        minTemperature = 24.0,
+        maxTemperature = 26.0,
+        liters = 25.0,
+        minPh = 7.0,
+        maxPh = 7.6,
+        minGh = 8.0,
+        maxGh = 12.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти раки иногда выбираются на поверхность, поэтому в аквариуме с ними можно установить коряги, выглядывающие из воды. У самцов первая пара брюшных ножек превращена в особый орган и прижата к телу. Детёнышей необходимо отсадить от взрослых особей, иначе они будут съедены.",
+        tags = listOf(
+            Tags.PREDATOR,
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.NEEDS_SHELTER,
+            Tags.LIVEBEARER,
+            Tags.NEEDS_DRIFTWOOD
+        )
+    ),
+
+    FreshDweller(
+        id = 54,
+        imageUrls = null,
+        name = "Флоридский синий рак",
+        genus = "Procambarus alleni",
+        minTemperature = 20.0,
+        maxTemperature = 25.0,
+        liters = 50.0,
+        minPh = 6.5,
+        maxPh = 8.0,
+        minGh = 10.0,
+        maxGh = 25.0,
+        minKh = null,
+        maxKh = null,
+        description = "У этих раков сильно проявляется внутривидовая агрессия, самцы часто дерутся. У самцов на брюшке имеется орган размножения. Детёнышей необходимо отсадить от взрослых особей, иначе они будут съедены.",
+        tags = listOf(
+            Tags.PREDATOR,
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.NEEDS_SHELTER,
+            Tags.LIVEBEARER,
+            Tags.SLOW_CURRENT,
+            Tags.PLANT_EATER
+        )
+    ),
+
+    FreshDweller(
+        id = 55,
+        imageUrls = listOf(
+            "${BASE_URL}/static/fresh_dweller/red_swamp_crayfish_1.jpg",
+            "${BASE_URL}/static/fresh_dweller/red_swamp_crayfish_2.jpg"
+        ),
+        name = "Красный калифорнийский рак",
+        genus = "Procambarus clarkii",
+        minTemperature = 23.0,
+        maxTemperature = 27.0,
+        liters = 70.0,
+        minPh = 7.0,
+        maxPh = 7.5,
+        minGh = 12.0,
+        maxGh = null,
+        minKh = null,
+        maxKh = null,
+        description = "Окрас этого рака очень сильно зависит от кормления: он варьируется от сине-фиолетового до тёмно-коричневого. Для получения ярко-красной окраски в рационе рака должны присутствовать каротиноиды. Эти раки иногда выбираются на поверхность, поэтому в аквариуме с ними можно установить коряги, выглядывающие из воды. Эти раки любят копать грунт. У самцов первая пара брюшных ножек превращена в особый орган и прижата к телу. Детёнышей необходимо отсадить от взрослых особей, иначе они будут съедены.",
+        tags = listOf(
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.NEEDS_SHELTER,
+            Tags.LIVEBEARER,
+            Tags.SLOW_CURRENT,
+            Tags.PLANT_EATER,
+            Tags.NEEDS_DRIFTWOOD
+        )
+    ),
+
+    FreshDweller(
+        id = 56,
+        imageUrls = null,
+        name = "Мраморный рак",
+        genus = "Procambarus virginalis",
+        minTemperature = 18.0,
+        maxTemperature = 28.0,
+        liters = 40.0,
+        minPh = 6.5,
+        maxPh = 7.8,
+        minGh = 8.0,
+        maxGh = 12.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти раки умеют выползать из аквариума по шлангам фильтра. Все особи этих раков - самки, которые способны размножаться без оплодотворения (этот процесс называется партеногенезом). Детёнышей необходимо отсадить от взрослых особей, иначе они будут съедены.",
+        tags = listOf(
+            Tags.PREDATOR,
+            Tags.TERRITORIAL,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.MEDIUM,
+            Tags.NEEDS_SHELTER,
+            Tags.LIVEBEARER,
+            Tags.PLANT_EATER
+        )
+    ),
+
+    FreshDweller(
+        id = 57,
+        imageUrls = null,
+        name = "Мексиканский карликовый рак",
+        genus = "Cambarellus patzcuarensis var. Orange",
+        minTemperature = 18.0,
+        maxTemperature = 25.0,
+        liters = 25.0,
+        minPh = 7.0,
+        maxPh = 8.5,
+        minGh = 10.0,
+        maxGh = 20.0,
+        minKh = null,
+        maxKh = null,
+        description = "Эти раки обладают очень интересным поведением. Они ведут дневной образ жизни. Эти раки любят обустраивать своё жилище и копать грунт. Когда рак голоден, он поднимает свои клешни и бегает вдоль стенки аквариума. Эти питомцы любят повисеть вниз головой, зацепившись за стебли растений. Они способны выползать из аквариума по шлангам фильтра. У самцов первая пара брюшных ножек превращена в особый орган и прижата к телу. Взрослые особи могут нападать на детёнышей.",
+        tags = listOf(
+            Tags.TERRITORIAL,
+            Tags.POLYGAMOUS,
+            Tags.CRAYFISH,
+            Tags.OMNIVOROUS,
+            Tags.SMALL,
+            Tags.NEEDS_SHELTER,
+            Tags.LIVEBEARER,
+            Tags.SLOW_CURRENT,
+            Tags.PLANT_LOVER,
+            Tags.LOW_LIGHT
         )
     ),
 )
