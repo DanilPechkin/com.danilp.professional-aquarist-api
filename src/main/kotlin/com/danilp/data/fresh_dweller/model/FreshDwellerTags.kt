@@ -1,6 +1,6 @@
 package com.danilp.data.fresh_dweller.model
 
-object Tags {
+object FreshDwellerTags {
 
     const val HERBIVOROUS = "Herbivorous" // травоядные
     const val OMNIVOROUS = "Omnivorous" // всеядные
@@ -44,7 +44,6 @@ object Tags {
 
     const val PLANT_LOVER = "Plant lover" // любит растения
     const val BROADLEAF_PLANT = "Broadleaf plant" // любит широколистные растения
-    const val LONG_STEMMED_PLANT = "Long-stemmed plant" // любит длинностебельные растения
     const val FLOATING_PLANT = "Floating plant" // любит плавающие растения
 
     const val NEEDS_MOSS = "Moss" // мох

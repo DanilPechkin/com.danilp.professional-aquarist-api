@@ -1,10 +1,10 @@
 package com.danilp.data.fresh_dweller
 
 import com.danilp.data.fresh_dweller.model.FreshDweller
-import com.danilp.data.fresh_dweller.model.Tags
+import com.danilp.data.fresh_dweller.model.FreshDwellerTags
 import com.danilp.routs.BASE_URL
 
-// 50
+// 57
 
 val freshDwellerListEn = listOf(
     FreshDweller(
@@ -27,16 +27,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PREDATOR,
-            Tags.CARNIVOROUS,
-            Tags.MONOGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.BIG,
-            Tags.FISH,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.LONG_STEMMED_PLANT,
-            Tags.SLOW_CURRENT
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.CARNIVOROUS,
+            FreshDwellerTags.MONOGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.BIG,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.SLOW_CURRENT
         )
     ),
     FreshDweller(
@@ -55,13 +55,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OMNIVOROUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -80,13 +80,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.OMNIVOROUS,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -105,13 +105,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.OMNIVOROUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -130,14 +130,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.NEEDS_SMOOTH_SURFACES,
-            Tags.POLYGAMOUS,
-            Tags.OMNIVOROUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -156,15 +156,15 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER,
-            Tags.LOW_LIGHT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.LOW_LIGHT
         )
     ),
     FreshDweller(
@@ -183,15 +183,15 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER,
-            Tags.LOW_LIGHT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.LOW_LIGHT
         )
     ),
     FreshDweller(
@@ -210,14 +210,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.FAST_CURRENT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.FAST_CURRENT
         )
     ),
     FreshDweller(
@@ -236,13 +236,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OMNIVOROUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -261,13 +261,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -286,14 +286,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.OMNIVOROUS,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -315,15 +315,15 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER,
-            Tags.FLOATING_PLANT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.FLOATING_PLANT
         )
     ),
     FreshDweller(
@@ -342,15 +342,15 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER,
-            Tags.FLOATING_PLANT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.FLOATING_PLANT
         )
     ),
     FreshDweller(
@@ -369,13 +369,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -394,13 +394,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -419,13 +419,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -444,14 +444,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -473,16 +473,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails can breathe not only oxygen dissolved in water, but also atmospheric air. They must have the opportunity to breathe atmospheric air. These snails are dioecious, but it is very difficult to distinguish a female from a male. They lay their eggs on dry land. Their eggs need moist air to incubate.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.CLEANER,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -502,16 +502,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails can breathe not only oxygen dissolved in water, but also atmospheric air. They must have the opportunity to breathe atmospheric air. These snails are dioecious, but it is very difficult to distinguish a female from a male. They lay their eggs on dry land. Their eggs need moist air to incubate.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.CLEANER,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -531,16 +531,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails can breathe not only oxygen dissolved in water, but also atmospheric air. They must have the opportunity to breathe atmospheric air. These snails are dioecious, but it is very difficult to distinguish a female from a male. They lay their eggs on dry land. Their eggs need moist air to incubate.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.CLEANER,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -560,16 +560,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails can breathe not only oxygen dissolved in water, but also atmospheric air. They must have the opportunity to breathe atmospheric air. These snails are dioecious, but it is very difficult to distinguish a female from a male. They lay their eggs on dry land. Their eggs need moist air to incubate.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.CLEANER,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -589,16 +589,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails can breathe not only oxygen dissolved in water, but also atmospheric air. They must have the opportunity to breathe atmospheric air. These snails are dioecious, but it is very difficult to distinguish a female from a male. They lay their eggs on dry land. Their eggs need moist air to incubate.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.CLEANER,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -618,13 +618,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "If Planorbidae reproduce very quickly, then there is too much food in the aquarium. These snails can breathe in two ways - using oxygen dissolved in water and atmospheric air. These snails are detritivores, they clean the aquarium from organic debris.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.OVIPAROUS,
-            Tags.CLEANER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -644,14 +644,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails are able to breathe not only oxygen dissolved in water, but also atmospheric air. They must have the opportunity to breathe atmospheric air. These snails are dioecious, the females have a dark body, and the males are light. For the reproduction of these snails, the water temperature must be several degrees warmer than a comfortable value. They lay their eggs on aquarium decorations.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.SNAIL,
-            Tags.MEDIUM,
-            Tags.OMNIVOROUS,
-            Tags.PLANT_EATER,
-            Tags.OVIPAROUS,
-            Tags.POLYGAMOUS,
-            Tags.CLEANER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.PLANT_EATER,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -671,13 +671,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails are detritivores, they clean the aquarium from organic debris. They love to be in the bottom of the aquarium. If all the snails crawl out of the ground, then the concentration of oxygen dissolved in the water is too low.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -697,14 +697,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails are good at eating algae without damaging aquarium plants. They do not tolerate sudden changes in water parameters. If this snail has fallen, then it will be very difficult for it to roll over on its own. Sometimes they stop in one place and do not move for a long time, this is normal. These snails are dioecious, but it is impossible to distinguish the female from the male. They lay their eggs on aquarium decorations, but for incubation, the eggs must be transferred to a saltwater aquarium.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -724,14 +724,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails are good at eating algae without damaging aquarium plants. They do not tolerate sudden changes in water parameters. If this snail has fallen, then it will be very difficult for it to roll over on its own. Sometimes they stop in one place and do not move for a long time, this is normal. These snails are dioecious, but it is impossible to distinguish the female from the male. They lay their eggs on aquarium decorations, but for incubation, the eggs must be transferred to a saltwater aquarium.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -751,14 +751,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails are good at eating algae without damaging aquarium plants. They do not tolerate sudden changes in water parameters. If this snail has fallen, then it will be very difficult for it to roll over on its own. Sometimes they stop in one place and do not move for a long time, this is normal. These snails are dioecious, but it is impossible to distinguish the female from the male. They lay their eggs on aquarium decorations, but for incubation, the eggs must be transferred to a saltwater aquarium.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -778,14 +778,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails are good at eating algae without damaging aquarium plants. They do not tolerate sudden changes in water parameters. If this snail has fallen, then it will be very difficult for it to roll over on its own. Sometimes they stop in one place and do not move for a long time, this is normal. These snails are dioecious, but it is impossible to distinguish the female from the male. They lay their eggs on aquarium decorations, but for incubation, the eggs must be transferred to a saltwater aquarium.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -808,14 +808,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails love to eat algae without damaging aquarium plants. If these snails reproduce very quickly, then there is too much food in the aquarium.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -835,13 +835,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails are good at eating algae without damaging aquarium plants. They do not tolerate sudden changes in water parameters. If this snail has fallen, then it will be very difficult for it to roll over on its own. Sometimes they stop in one place and do not move for a long time, this is normal. These snails are dioecious, but it is impossible to distinguish the female from the male. They lay their eggs on aquarium decorations, but for incubation, the eggs must be transferred to a saltwater aquarium.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.SMALL,
-            Tags.OVIPAROUS,
-            Tags.CLEANER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -861,14 +861,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "For the comfort of these snails, sandy soil with large stones as decorations is suitable. These snails eat a lot, they need to be fed at least 2 times a day. They are dioecious, but it is impossible to distinguish males from females.",
         tags = listOf(
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_EATER,
-            Tags.LOW_LIGHT
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_EATER,
+            FreshDwellerTags.LOW_LIGHT
         )
     ),
 
@@ -891,13 +891,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "Sandy soil or gravel soil is suitable for comfortable keeping of these snails, as they like to burrow. They are dioecious, but it is impossible to distinguish males from females. The female lays eggs that look like transparent cubes with a yellow ball inside.",
         tags = listOf(
-            Tags.PREDATOR,
-            Tags.MONOGAMOUS,
-            Tags.SNAIL,
-            Tags.CARNIVOROUS,
-            Tags.SMALL,
-            Tags.OVIPAROUS,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.MONOGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.CARNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -917,13 +917,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -943,13 +943,13 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "For maintenance, soil is needed in which these mollusks can completely burrow. They filter water well, so in aquariums with them, fish get sick less often, the water does not algal bloom and does not become cloudy.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.BIVALVE,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.CLEANER,
-            Tags.LIVEBEARER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.BIVALVE,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.LIVEBEARER
         )
     ),
 
@@ -969,14 +969,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These snails can only breathe atmospheric air, so they sometimes rise to the surface. These snails are detritivores, they clean the aquarium from organic debris.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_EATER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_EATER
         )
     ),
 
@@ -998,17 +998,17 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These shrimp feed in an unusual way - they catch food floating in the water. For feeding them, flakes for aquarium fish are suitable, which must be immersed in water to be sprayed by the current. In an aquarium with these shrimps, it is better not to use sand, as it is difficult for them to move on it. After birth, the larvae of these shrimp should be immersed in an aquarium with sea water and phytoplankton.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.BIG,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.FAST_CURRENT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.BIG,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.FAST_CURRENT
         )
     ),
 
@@ -1028,16 +1028,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These shrimp are very fast, they can jump out of the water. They eat algae and organic debris well. Pregnant females need to be moved to an aquarium with seawater and phytoplankton for successful larval development. After giving birth, the female must be returned to the main aquarium.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -1057,15 +1057,15 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "Dominant males are blue. If there are several males, they will conflict. After birth, the larvae must be transferred to a saltwater aquarium.",
         tags = listOf(
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.PREDATOR,
-            Tags.OMNIVOROUS,
-            Tags.LARGE,
-            Tags.LIVEBEARER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.TERRITORIAL
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.LARGE,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.TERRITORIAL
         )
     ),
 
@@ -1090,17 +1090,17 @@ val freshDwellerListEn = listOf(
         maxKh = 20.0,
         description = "These shrimp temporarily lose color when stressed. To preserve the bright colors of future generations, it is necessary to periodically add new bright individuals to the aquarium. They eat algae and organic debris well. The females of these shrimp are larger, brighter and slower than the males. They reproduce fairly quickly.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -1120,17 +1120,17 @@ val freshDwellerListEn = listOf(
         maxKh = 20.0,
         description = "These shrimp temporarily lose color when stressed. To preserve the bright colors of future generations, it is necessary to periodically add new bright individuals to the aquarium. They eat algae and organic debris well. The females of these shrimp are larger, brighter and slower than the males. They reproduce fairly quickly.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -1153,17 +1153,17 @@ val freshDwellerListEn = listOf(
         maxKh = 20.0,
         description = "These shrimp temporarily lose color when stressed. To preserve the bright colors of future generations, it is necessary to periodically add new bright individuals to the aquarium. They eat algae and organic debris well. The females of these shrimp are larger, brighter and slower than the males. They reproduce fairly quickly.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -1183,17 +1183,17 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These shrimp temporarily lose color when stressed. To preserve the bright colors of future generations, it is necessary to periodically add new bright individuals to the aquarium. They eat algae and organic debris well. The females of these shrimp are larger, brighter and slower than the males. They reproduce fairly quickly.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -1213,18 +1213,18 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These shrimp feed in an unusual way - they catch food floating in the water. For feeding them, flakes for aquarium fish are suitable, which must be immersed in water to be sprayed by the current. After birth, the larvae of these shrimp should be immersed in an aquarium with sea water and phytoplankton.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.FAST_CURRENT,
-            Tags.BROADLEAF_PLANT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.FAST_CURRENT,
+            FreshDwellerTags.BROADLEAF_PLANT
         )
     ),
 
@@ -1247,18 +1247,18 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These shrimp are very good at cleaning the aquarium from algae. It can get out of the aquarium through a hose or wire, so it is better to cover the aquarium with a lid. They do not eat the eggs of other inhabitants of the aquarium. Males have a body covered with dots, while females have a body covered with lines. After birth, the larvae of these shrimp should be moved to a saltwater aquarium.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS,
-            Tags.MEDIUM_CURRENT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS,
+            FreshDwellerTags.MEDIUM_CURRENT
         )
     ),
 
@@ -1282,18 +1282,18 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These shrimps do not tolerate changes in water parameters and water pollution very well. Poor nutrition of these shrimp leads to loss of color. If you want to cut a large plant in an aquarium with these shrimp, it is best to remove it from the aquarium before cutting it. Females are larger than males and have a more intense color. The stimulus for reproduction is a decrease in water temperature by several degrees below comfortable.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.HERBIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS,
-            Tags.SLOW_CURRENT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS,
+            FreshDwellerTags.SLOW_CURRENT
         )
     ),
 
@@ -1313,18 +1313,18 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These shrimps do not tolerate changes in water parameters and water pollution very well. Poor nutrition of these shrimp leads to loss of color. If you want to cut a large plant in an aquarium with these shrimp, it is best to remove it from the aquarium before cutting it. Females are larger than males and have a more intense color. The stimulus for reproduction is a decrease in water temperature by several degrees below comfortable.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.HERBIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS,
-            Tags.SLOW_CURRENT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS,
+            FreshDwellerTags.SLOW_CURRENT
         )
     ),
 
@@ -1346,17 +1346,17 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "If there are several males, they will conflict.",
         tags = listOf(
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.PREDATOR,
-            Tags.OMNIVOROUS,
-            Tags.BIG,
-            Tags.LIVEBEARER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.TERRITORIAL,
-            Tags.LOW_LIGHT,
-            Tags.CLEANER
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.BIG,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.LOW_LIGHT,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -1376,17 +1376,17 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These shrimp can change color for camouflage purposes. Their color depends on the keeping conditions, feeding and mood. Females are larger than males.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -1406,15 +1406,15 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These shrimp do not do well in ordinary water, for their keeping it is better to use osmotic water with the addition of a complex of special salts designed for them.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD
         )
     ),
 
@@ -1436,16 +1436,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "It's a very intelligent crayfish. It moves the decorations of the aquarium and excavates the ground to create its own aquarium design. The design created by this crayfish should not be changed, otherwise, it will be dissatisfied. If you keep this crayfish in uncomfortable conditions, it will try to escape from the tank. Males have more powerful claws, and females have wider abdomens. To distinguish the male from the female, you need to turn the crayfish on the back and look at the base of the last pair of walking legs, the males have there growths similar to thorns. Adults do not attack the young, but the young can fight each other.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.BIG,
-            Tags.NEEDS_SHELTER,
-            Tags.SLOW_CURRENT,
-            Tags.PLANT_EATER,
-            Tags.LIVEBEARER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.BIG,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.SLOW_CURRENT,
+            FreshDwellerTags.PLANT_EATER,
+            FreshDwellerTags.LIVEBEARER
         )
     ),
 
@@ -1465,16 +1465,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "It's a very intelligent crayfish. It moves the decorations of the aquarium to create its own aquarium design. The design created by this crayfish should not be changed, otherwise, it will be dissatisfied. If you keep this crayfish in uncomfortable conditions, it will try to escape from the tank. The males have red growth on the claws. To stimulate reproduction, males and females can be separated for a week, after which their sexual activity will increase. The hatchlings of these crayfish must be separated, otherwise they will fight each other.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.BIG,
-            Tags.NEEDS_SHELTER,
-            Tags.SLOW_CURRENT,
-            Tags.PLANT_EATER,
-            Tags.LIVEBEARER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.BIG,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.SLOW_CURRENT,
+            FreshDwellerTags.PLANT_EATER,
+            FreshDwellerTags.LIVEBEARER
         )
     ),
 
@@ -1496,15 +1496,15 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These crayfish sometimes come out of the water, so in an aquarium with them you can install branches sticking out of the water. The males have the first set of abdominal legs turned into a special organ and leaning along the body. The young must be separated from the adults, otherwise they will be eaten.",
         tags = listOf(
-            Tags.PREDATOR,
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.NEEDS_SHELTER,
-            Tags.LIVEBEARER,
-            Tags.NEEDS_DRIFTWOOD
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD
         )
     ),
 
@@ -1524,16 +1524,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These crayfish have high intraspecific aggression, the males often fight. Males have an organ of reproduction on the abdomen. The young must be separated from the adults, otherwise, they will be eaten.",
         tags = listOf(
-            Tags.PREDATOR,
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.NEEDS_SHELTER,
-            Tags.LIVEBEARER,
-            Tags.SLOW_CURRENT,
-            Tags.PLANT_EATER
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.SLOW_CURRENT,
+            FreshDwellerTags.PLANT_EATER
         )
     ),
 
@@ -1556,16 +1556,16 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "The colour of these crayfish is very dependent on feeding: it varies from blue to brown. Carotenoids must be present in the crayfish diet to get a red colour. These crayfish sometimes come out of the water, so in an aquarium with them you can install branches sticking out of the water. These crayfish like to dig in the soil. The males have the first set of abdominal legs turned into a special organ and leaning along the body. The young must be separated from the adults, otherwise they will be eaten.",
         tags = listOf(
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.NEEDS_SHELTER,
-            Tags.LIVEBEARER,
-            Tags.SLOW_CURRENT,
-            Tags.PLANT_EATER,
-            Tags.NEEDS_DRIFTWOOD
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.SLOW_CURRENT,
+            FreshDwellerTags.PLANT_EATER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD
         )
     ),
 
@@ -1585,14 +1585,14 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These crayfish can crawl out of an aquarium through filter hoses. All individuals of these crayfish are females that can reproduce without fertilization (this process is called parthenogenesis). The young must be separated from the adults, otherwise, they will be eaten.",
         tags = listOf(
-            Tags.PREDATOR,
-            Tags.TERRITORIAL,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.NEEDS_SHELTER,
-            Tags.LIVEBEARER,
-            Tags.PLANT_EATER
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.PLANT_EATER
         )
     ),
 
@@ -1612,22 +1612,22 @@ val freshDwellerListEn = listOf(
         maxKh = null,
         description = "These crayfish have very interesting behaviour. They have a noontime lifestyle. These crayfish love to build their home and dig the soil. When crayfish is hungry, it lifts its claws and runs along the wall of the aquarium. These pets like to hang upside down, caught on the stems of plants. They can crawl out of the aquarium through the hoses of the filter. The males have the first set of abdominal legs turned into a special organ and leaning along the body. Adults can attack young.",
         tags = listOf(
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.NEEDS_SHELTER,
-            Tags.LIVEBEARER,
-            Tags.SLOW_CURRENT,
-            Tags.PLANT_LOVER,
-            Tags.LOW_LIGHT
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.SLOW_CURRENT,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.LOW_LIGHT
         )
     ),
 
 )
 
-val freshDwellerListRu = listOf (
+val freshDwellerListRu = listOf(
     FreshDweller(
         id = 1,
         imageUrls = listOf(
@@ -1648,16 +1648,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PREDATOR,
-            Tags.CARNIVOROUS,
-            Tags.MONOGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.BIG,
-            Tags.FISH,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.LONG_STEMMED_PLANT,
-            Tags.SLOW_CURRENT
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.CARNIVOROUS,
+            FreshDwellerTags.MONOGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.BIG,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.SLOW_CURRENT
         )
     ),
     FreshDweller(
@@ -1676,13 +1676,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OMNIVOROUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -1701,13 +1701,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.OMNIVOROUS,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -1726,13 +1726,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.OMNIVOROUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -1751,14 +1751,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.NEEDS_SMOOTH_SURFACES,
-            Tags.POLYGAMOUS,
-            Tags.OMNIVOROUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -1777,15 +1777,15 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER,
-            Tags.LOW_LIGHT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.LOW_LIGHT
         )
     ),
     FreshDweller(
@@ -1804,15 +1804,15 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER,
-            Tags.LOW_LIGHT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.LOW_LIGHT
         )
     ),
     FreshDweller(
@@ -1831,14 +1831,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.FAST_CURRENT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.FAST_CURRENT
         )
     ),
     FreshDweller(
@@ -1857,13 +1857,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OMNIVOROUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -1882,13 +1882,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -1907,14 +1907,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.OVIPAROUS,
-            Tags.SMALL,
-            Tags.OMNIVOROUS,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -1936,15 +1936,15 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER,
-            Tags.FLOATING_PLANT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.FLOATING_PLANT
         )
     ),
     FreshDweller(
@@ -1963,15 +1963,15 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER,
-            Tags.FLOATING_PLANT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.FLOATING_PLANT
         )
     ),
     FreshDweller(
@@ -1990,13 +1990,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -2015,13 +2015,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -2040,13 +2040,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.FISH,
-            Tags.SHOAL
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL
         )
     ),
     FreshDweller(
@@ -2065,14 +2065,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = null,
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.LIVEBEARER,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.FISH,
-            Tags.SHOAL,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.FISH,
+            FreshDwellerTags.SHOAL,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -2094,16 +2094,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Ампулярии умеют дышать не только кислородом, растворённым в воде, но и атмосферным воздухом. У них обязательно должна быть возможность подышать атмосферным воздухом. Эти улитки раздельнополые, но отличить самку от самца очень тяжело. Свою икру они откладывают на суше, для инкубации ей необходим влажный воздух.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.CLEANER,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -2123,16 +2123,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Ампулярии умеют дышать не только кислородом, растворённым в воде, но и атмосферным воздухом. У них обязательно должна быть возможность подышать атмосферным воздухом. Эти улитки раздельнополые, но отличить самку от самца очень тяжело. Свою икру они откладывают на суше, для инкубации ей необходим влажный воздух.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.CLEANER,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -2152,16 +2152,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Ампулярии умеют дышать не только кислородом, растворённым в воде, но и атмосферным воздухом. У них обязательно должна быть возможность подышать атмосферным воздухом. Эти улитки раздельнополые, но отличить самку от самца очень тяжело. Свою икру они откладывают на суше, для инкубации ей необходим влажный воздух.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.CLEANER,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -2181,16 +2181,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Ампулярии умеют дышать не только кислородом, растворённым в воде, но и атмосферным воздухом. У них обязательно должна быть возможность подышать атмосферным воздухом. Эти улитки раздельнополые, но отличить самку от самца очень тяжело. Свою икру они откладывают на суше, для инкубации ей необходим влажный воздух.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.CLEANER,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -2210,16 +2210,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Ампулярии умеют дышать не только кислородом, растворённым в воде, но и атмосферным воздухом. У них обязательно должна быть возможность подышать атмосферным воздухом. Эти улитки раздельнополые, но отличить самку от самца очень тяжело. Свою икру они откладывают на суше, для инкубации ей необходим влажный воздух.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.PLANT_LOVER,
-            Tags.BROADLEAF_PLANT,
-            Tags.CLEANER,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.BROADLEAF_PLANT,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -2239,13 +2239,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Если катушки очень быстро размножаются - значит в аквариуме слишком много корма. Эти беспозвоночные могут дышать двумя способами – используя кислород, растворенный в воде, и атмосферный воздух. Эти улитки - детритофаги, они чистят аквариум от органического мусора.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.OVIPAROUS,
-            Tags.CLEANER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -2265,14 +2265,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Маризы умеют дышать не только кислородом, растворённым в воде, но и атмосферным воздухом. У них обязательно должна быть возможность подышать атмосферным воздухом. Эти улитки раздельнополые, у самок тело тёмного цвета, а у самцов светлое. Для размножения этих улиток температура воды должна быть на несколько градусов теплее комфортного значения. Свою икру они откладывают на декорации аквариума.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.SNAIL,
-            Tags.MEDIUM,
-            Tags.OMNIVOROUS,
-            Tags.PLANT_EATER,
-            Tags.OVIPAROUS,
-            Tags.POLYGAMOUS,
-            Tags.CLEANER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.PLANT_EATER,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -2292,13 +2292,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти улитки - детритофаги, они чистят аквариум от органического мусора. Они любят находиться в грунте аквариума. Если все улитки выползают из грунта - значит концентрация растворённого в воде кислорода слишком мала.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -2318,14 +2318,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти улитки хороши в поедании водрослей, при этом они не повреждают аквариумные растения. Они плохо переносят изменения параметров воды. Если эта улитка упала, то ей будет очень тяжело самостоятельно перевернуться. Иногда они останавливаются на одном месте и долго не двигаются, это нормально. Эти улитки раздельнополые, но отличить самку от самца невозможно. Они откладывают свою икру на декорации аквариума, но для инкубации икру необходимо перенести в аквариум с морской водой.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -2345,14 +2345,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти улитки хороши в поедании водрослей, при этом они не повреждают аквариумные растения. Они плохо переносят изменения параметров воды. Если эта улитка упала, то ей будет очень тяжело самостоятельно перевернуться. Иногда они останавливаются на одном месте и долго не двигаются, это нормально. Эти улитки раздельнополые, но отличить самку от самца невозможно. Они откладывают свою икру на декорации аквариума, но для инкубации икру необходимо перенести в аквариум с морской водой.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -2372,14 +2372,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти улитки хороши в поедании водрослей, при этом они не повреждают аквариумные растения. Они плохо переносят изменения параметров воды. Если эта улитка упала, то ей будет очень тяжело самостоятельно перевернуться. Иногда они останавливаются на одном месте и долго не двигаются, это нормально. Эти улитки раздельнополые, но отличить самку от самца невозможно. Они откладывают свою икру на декорации аквариума, но для инкубации икру необходимо перенести в аквариум с морской водой.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -2399,14 +2399,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти улитки хороши в поедании водрослей, при этом они не повреждают аквариумные растения. Они плохо переносят изменения параметров воды. Если эта улитка упала, то ей будет очень тяжело самостоятельно перевернуться. Иногда они останавливаются на одном месте и долго не двигаются, это нормально. Эти улитки раздельнополые, но отличить самку от самца невозможно. Они откладывают свою икру на декорации аквариума, но для инкубации икру необходимо перенести в аквариум с морской водой.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -2429,14 +2429,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти улитки любят есть водоросли, не повреждая аквариумные растения. Если они быстро размножаются - значит в аквариуме слишком много корма.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_LOVER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_LOVER
         )
     ),
 
@@ -2456,13 +2456,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти улитки хороши в поедании водрослей, при этом они не повреждают аквариумные растения. Они плохо переносят изменения параметров воды. Если эта улитка упала, то ей будет очень тяжело самостоятельно перевернуться. Иногда они останавливаются на одном месте и долго не двигаются, это нормально. Эти улитки раздельнополые, но отличить самку от самца невозможно. Они откладывают свою икру на декорации аквариума, но для инкубации икру необходимо перенести в аквариум с морской водой.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.SMALL,
-            Tags.OVIPAROUS,
-            Tags.CLEANER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -2482,14 +2482,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Для комфортного содержания этих улиток подойдёт песчаный грунт с крупными камнями в роли декораций. Едят эти улитки очень много, кормить их необходимо не менее 2 раз в день. Они раздельнополые, но отличить самцов от самок невозможно.",
         tags = listOf(
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_EATER,
-            Tags.LOW_LIGHT
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_EATER,
+            FreshDwellerTags.LOW_LIGHT
         )
     ),
 
@@ -2512,13 +2512,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Для комфортного содержания этих улиток подойдёт песчаный грунт или грунт из мелкой гальки, поскольку они любят закапываться. Они раздельнополые, но отличить самцов от самок невозможно. Самка откладывает икринки, похожие на прозрачные кубики с жёлтым шариком внутри.",
         tags = listOf(
-            Tags.PREDATOR,
-            Tags.MONOGAMOUS,
-            Tags.SNAIL,
-            Tags.CARNIVOROUS,
-            Tags.SMALL,
-            Tags.OVIPAROUS,
-            Tags.NEEDS_SMOOTH_SURFACES
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.MONOGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.CARNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.NEEDS_SMOOTH_SURFACES
         )
     ),
 
@@ -2538,13 +2538,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Один из самых крупных аквариумных моллюсков. Эти брюхоногие очень активны, хорошо поедают водороосли, но не повреждают аквариумные растения. Они раздельнополые, но отличить самцов от самок невозможно. Самка откладывает икринки с белесой оболочкой, в которых несложно разглядеть маленьких улиток. Для инкубации икру необходимо перенести в аквариум с морской водой.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.HERBIVOROUS,
-            Tags.MEDIUM,
-            Tags.OVIPAROUS,
-            Tags.CLEANER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -2564,13 +2564,13 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Для содержания необходим грунт, в который эти моллюски смогут полностью зарыться. Они хорошо фильтруют воду, благодаря чему в аквариумах с ними рыбки болеют реже, вода не цветёт и не мутнеет.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.BIVALVE,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.CLEANER,
-            Tags.LIVEBEARER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.BIVALVE,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.LIVEBEARER
         )
     ),
 
@@ -2590,14 +2590,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти улитки способны дышать только атмосферным воздухом, для чего иногда поднимаются к поверхности. Эти улитки - детритофаги, они чистят аквариум от органического мусора.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SNAIL,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.OVIPAROUS,
-            Tags.CLEANER,
-            Tags.PLANT_EATER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SNAIL,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.OVIPAROUS,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.PLANT_EATER
         )
     ),
 
@@ -2619,17 +2619,17 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти креветки питаются необычным способом - они ловят пищу, плавающую в воде. Для их кормления подойдут хлопья для аквариумных рыбок, которые необходимо погрузить в воду, чтобы их распылило течением. В аквариуме с этими креветками лучше не использовать песок, поскольку им тяжело по нему передвигаться. После рождения личинки этих креветок должны быть погружены в аквариум с морской водой и фитопланктоном.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.BIG,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.FAST_CURRENT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.BIG,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.FAST_CURRENT
         )
     ),
 
@@ -2649,16 +2649,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти креветки очень быстрые, они умеют выпрыгивать из воды. Они хорошо поедают водоросли и органические остатки. Беременных самок необходимо перемещать в аквариум с морской водой и фитопланктоном для успешного развития личинок. После родов самку необходимо вернуть в основной аквариум.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -2678,15 +2678,15 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Доминантные самцы имеют синюю окраску. Если самцов будет несколько, то они будут конфликтовать. После рождения личинок необходимо перенести в аквариум с морской водой.",
         tags = listOf(
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.PREDATOR,
-            Tags.OMNIVOROUS,
-            Tags.LARGE,
-            Tags.LIVEBEARER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.TERRITORIAL
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.LARGE,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.TERRITORIAL
         )
     ),
 
@@ -2711,17 +2711,17 @@ val freshDwellerListRu = listOf (
         maxKh = 20.0,
         description = "Эти креветки временно теряют окраску во время стресса. Для поддержания яркой окраски будущих поколений необходимо периодически добавлять в аквариум новых ярких особей. Они хорошо поедают водоросли и органические остатки. Самки этих креветок больше, ярче и медленнее самцов. Размножаются они достаточно быстро.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -2741,17 +2741,17 @@ val freshDwellerListRu = listOf (
         maxKh = 20.0,
         description = "Эти креветки временно теряют окраску во время стресса. Для поддержания яркой окраски будущих поколений необходимо периодически добавлять в аквариум новых ярких особей. Они хорошо поедают водоросли и органические остатки. Самки этих креветок больше, ярче и медленнее самцов. Размножаются они достаточно быстро.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -2774,17 +2774,17 @@ val freshDwellerListRu = listOf (
         maxKh = 20.0,
         description = "Эти креветки временно теряют окраску во время стресса. Для поддержания яркой окраски будущих поколений необходимо периодически добавлять в аквариум новых ярких особей. Они хорошо поедают водоросли и органические остатки. Самки этих креветок больше, ярче и медленнее самцов. Размножаются они достаточно быстро.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -2804,17 +2804,17 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти креветки временно теряют окраску во время стресса. Для поддержания яркой окраски будущих поколений необходимо периодически добавлять в аквариум новых ярких особей. Они хорошо поедают водоросли и органические остатки. Самки этих креветок больше, ярче и медленнее самцов. Размножаются они достаточно быстро.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -2834,18 +2834,18 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти креветки питаются необычным способом - они ловят пищу, плавающую в воде. Для их кормления подойдут хлопья для аквариумных рыбок, которые необходимо погрузить в воду, чтобы их распылило течением. После рождения личинки этих креветок должны быть перемещены в аквариум с морской водой и фитопланктоном.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.FAST_CURRENT,
-            Tags.BROADLEAF_PLANT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.FAST_CURRENT,
+            FreshDwellerTags.BROADLEAF_PLANT
         )
     ),
 
@@ -2868,18 +2868,18 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти креветки очень хорошо очищают аквариум от водорослей. Может вылезти из аквариума по шлангу или проводу, поэтому аквариум лучше накрыть крышкой. Не поедают икру других обитателей аквариума. У самцов тело покрыто точками, а у самок линиями. После рождения личинки этих креветок должны быть перемещены в аквариум с морской водой.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS,
-            Tags.MEDIUM_CURRENT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS,
+            FreshDwellerTags.MEDIUM_CURRENT
         )
     ),
 
@@ -2903,18 +2903,18 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти креветки очень плохо переносят изменения параметров воды и загрязнение воды. Плохое питание этих креветок приводит к потере окраса. Если вы хотите подстричь большое растение в аквариуме с этими креветками, то перед стрижкой лучше достать его из аквариума. Самки больше и ярче самцов. Стимулом к размножению служит понижение температуры воды на несколько градусов ниже комфортной.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.HERBIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS,
-            Tags.SLOW_CURRENT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS,
+            FreshDwellerTags.SLOW_CURRENT
         )
     ),
 
@@ -2934,18 +2934,18 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти креветки очень плохо переносят изменения параметров воды и загрязнение воды. Плохое питание этих креветок приводит к потере окраса. Если вы хотите подстричь большое растение в аквариуме с этими креветками, то перед стрижкой лучше достать его из аквариума. Самки больше и ярче самцов. Стимулом к размножению служит понижение температуры воды на несколько градусов ниже комфортной.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.HERBIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS,
-            Tags.SLOW_CURRENT
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.HERBIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS,
+            FreshDwellerTags.SLOW_CURRENT
         )
     ),
 
@@ -2967,17 +2967,17 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Если самцов будет несколько, то они будут конфликтовать.",
         tags = listOf(
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.PREDATOR,
-            Tags.OMNIVOROUS,
-            Tags.BIG,
-            Tags.LIVEBEARER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.TERRITORIAL,
-            Tags.LOW_LIGHT,
-            Tags.CLEANER
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.BIG,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.LOW_LIGHT,
+            FreshDwellerTags.CLEANER
         )
     ),
 
@@ -2997,17 +2997,17 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти креветки умеют менять окраску в целях маскировки. Их окраска зависит от условий содержания, кормления и настроения. Самки крупнее самцов.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -3027,17 +3027,17 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти креветки умеют менять окраску в целях маскировки. Их окраска зависит от условий содержания, кормления и настроения. Самки крупнее самцов.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD,
-            Tags.PLANT_LOVER,
-            Tags.NEEDS_MOSS
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.NEEDS_MOSS
         )
     ),
 
@@ -3057,15 +3057,15 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти креветки чувствуют себя плохо в обычной воде, для их содержания лучше использовать осмотическую воду с добавлением комплекса специальных солей, разработанного для них.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.POLYGAMOUS,
-            Tags.SHRIMP,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.LIVEBEARER,
-            Tags.CLEANER,
-            Tags.NEEDS_SHELTER,
-            Tags.NEEDS_DRIFTWOOD
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.SHRIMP,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.CLEANER,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD
         )
     ),
 
@@ -3087,16 +3087,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Этот рак очень умён. Он двигает аквариумные декорации и роет грунт для того чтобы создать собственный дизайн своего аквариума. Созданный этим раком дизайн не стоит изменять, иначе он будет недоволен. Если содержать этого рака в некомфортных условиях, то он попытается сбежать из аквариума. У самцов более мощные клешни, а у самки более широкое брюшко. Чтобы отличить самца от самки, нужно перевернуть рака на спину и посмотреть на основание последней пары ходильных ног, у самцов там распологаются наросты, похожие на шипы. Взрослые особи не нападают на молодых, но молодые могут драться друг с другом.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.BIG,
-            Tags.NEEDS_SHELTER,
-            Tags.SLOW_CURRENT,
-            Tags.PLANT_EATER,
-            Tags.LIVEBEARER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.BIG,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.SLOW_CURRENT,
+            FreshDwellerTags.PLANT_EATER,
+            FreshDwellerTags.LIVEBEARER
         )
     ),
 
@@ -3116,16 +3116,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Этот рак очень умён. Он двигает аквариумные декорации для того чтобы создать собственный дизайн своего аквариума. Созданный этим раком дизайн не стоит изменять, иначе он будет недоволен. Если содержать этого рака в некомфортных условиях, то он попытается сбежать из аквариума. Самцы имеют красные выросты на клешнях. Для стимуляции размножения можно разделить самцов и самок на неделю, после этого их половая активность возрастёт. Мальков этих раков необходимо рассаживать, иначе они будут драться друг с другом.",
         tags = listOf(
-            Tags.PEACEFUL,
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.BIG,
-            Tags.NEEDS_SHELTER,
-            Tags.SLOW_CURRENT,
-            Tags.PLANT_EATER,
-            Tags.LIVEBEARER
+            FreshDwellerTags.PEACEFUL,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.BIG,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.SLOW_CURRENT,
+            FreshDwellerTags.PLANT_EATER,
+            FreshDwellerTags.LIVEBEARER
         )
     ),
 
@@ -3147,15 +3147,15 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти раки иногда выбираются на поверхность, поэтому в аквариуме с ними можно установить коряги, выглядывающие из воды. У самцов первая пара брюшных ножек превращена в особый орган и прижата к телу. Детёнышей необходимо отсадить от взрослых особей, иначе они будут съедены.",
         tags = listOf(
-            Tags.PREDATOR,
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.NEEDS_SHELTER,
-            Tags.LIVEBEARER,
-            Tags.NEEDS_DRIFTWOOD
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD
         )
     ),
 
@@ -3175,16 +3175,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "У этих раков сильно проявляется внутривидовая агрессия, самцы часто дерутся. У самцов на брюшке имеется орган размножения. Детёнышей необходимо отсадить от взрослых особей, иначе они будут съедены.",
         tags = listOf(
-            Tags.PREDATOR,
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.NEEDS_SHELTER,
-            Tags.LIVEBEARER,
-            Tags.SLOW_CURRENT,
-            Tags.PLANT_EATER
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.SLOW_CURRENT,
+            FreshDwellerTags.PLANT_EATER
         )
     ),
 
@@ -3207,16 +3207,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Окрас этого рака очень сильно зависит от кормления: он варьируется от сине-фиолетового до тёмно-коричневого. Для получения ярко-красной окраски в рационе рака должны присутствовать каротиноиды. Эти раки иногда выбираются на поверхность, поэтому в аквариуме с ними можно установить коряги, выглядывающие из воды. Эти раки любят копать грунт. У самцов первая пара брюшных ножек превращена в особый орган и прижата к телу. Детёнышей необходимо отсадить от взрослых особей, иначе они будут съедены.",
         tags = listOf(
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.NEEDS_SHELTER,
-            Tags.LIVEBEARER,
-            Tags.SLOW_CURRENT,
-            Tags.PLANT_EATER,
-            Tags.NEEDS_DRIFTWOOD
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.SLOW_CURRENT,
+            FreshDwellerTags.PLANT_EATER,
+            FreshDwellerTags.NEEDS_DRIFTWOOD
         )
     ),
 
@@ -3236,14 +3236,14 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти раки умеют выползать из аквариума по шлангам фильтра. Все особи этих раков - самки, которые способны размножаться без оплодотворения (этот процесс называется партеногенезом). Детёнышей необходимо отсадить от взрослых особей, иначе они будут съедены.",
         tags = listOf(
-            Tags.PREDATOR,
-            Tags.TERRITORIAL,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.MEDIUM,
-            Tags.NEEDS_SHELTER,
-            Tags.LIVEBEARER,
-            Tags.PLANT_EATER
+            FreshDwellerTags.PREDATOR,
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.MEDIUM,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.PLANT_EATER
         )
     ),
 
@@ -3263,16 +3263,16 @@ val freshDwellerListRu = listOf (
         maxKh = null,
         description = "Эти раки обладают очень интересным поведением. Они ведут дневной образ жизни. Эти раки любят обустраивать своё жилище и копать грунт. Когда рак голоден, он поднимает свои клешни и бегает вдоль стенки аквариума. Эти питомцы любят повисеть вниз головой, зацепившись за стебли растений. Они способны выползать из аквариума по шлангам фильтра. У самцов первая пара брюшных ножек превращена в особый орган и прижата к телу. Взрослые особи могут нападать на детёнышей.",
         tags = listOf(
-            Tags.TERRITORIAL,
-            Tags.POLYGAMOUS,
-            Tags.CRAYFISH,
-            Tags.OMNIVOROUS,
-            Tags.SMALL,
-            Tags.NEEDS_SHELTER,
-            Tags.LIVEBEARER,
-            Tags.SLOW_CURRENT,
-            Tags.PLANT_LOVER,
-            Tags.LOW_LIGHT
+            FreshDwellerTags.TERRITORIAL,
+            FreshDwellerTags.POLYGAMOUS,
+            FreshDwellerTags.CRAYFISH,
+            FreshDwellerTags.OMNIVOROUS,
+            FreshDwellerTags.SMALL,
+            FreshDwellerTags.NEEDS_SHELTER,
+            FreshDwellerTags.LIVEBEARER,
+            FreshDwellerTags.SLOW_CURRENT,
+            FreshDwellerTags.PLANT_LOVER,
+            FreshDwellerTags.LOW_LIGHT
         )
     ),
 )
